@@ -15,7 +15,7 @@ class DataModel (
     @SerializedName("switch1")
     val switch1: String,
     @Expose
-    @SerializedName("swtch2")
+    @SerializedName("switch2")
     val switch2: String,
     @SerializedName("switch3")
     val switch3: String,
