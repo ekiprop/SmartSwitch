@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    var BASE_URL:String="http://127.0.0.1:8000/switchapi/"
+    var BASE_URL:String="http://10.0.2.2:8000/switchapi/"
     val getClient: ApiInterface
         get() {
 
