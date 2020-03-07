@@ -53,7 +53,7 @@ class HomeFragment : Fragment() {
     }
 
     private fun getData() {
-        val call: Call<List<DataModel>> = ApiClient.getClient.getPhotos()
+        val call: Call<List<DataModel>> = ApiClient.getClient.getSwitchapis()
         call.enqueue(object : Callback<List<DataModel>> {
 
             override fun onResponse(call: Call<List<DataModel>>?, response: Response<List<DataModel>>?) {

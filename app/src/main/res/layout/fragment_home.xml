@@ -10,5 +10,5 @@
         android:id="@+id/recyclerview_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/power_item"/>
+        tools:listitem="@layout/list_item_home"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
