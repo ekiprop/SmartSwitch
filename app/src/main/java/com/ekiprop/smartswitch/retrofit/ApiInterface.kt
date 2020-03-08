@@ -7,7 +7,7 @@ import retrofit2.http.GET
 
 interface ApiInterface {
 
-    @GET("switchapi")
+    @GET("/switchapi")
     fun getSwitchapis(): Call<List<DataModel>>
 
 }

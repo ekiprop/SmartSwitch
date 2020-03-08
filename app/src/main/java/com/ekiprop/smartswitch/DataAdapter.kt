@@ -28,7 +28,7 @@ class DataAdpter(private var dataList: List<DataModel>, private val context: Con
 
 
     class ViewHolder(itemLayoutView: View) : RecyclerView.ViewHolder(itemLayoutView) {
-        lateinit var titleTextView:TextView
+         var titleTextView:TextView
         init {
             titleTextView=itemLayoutView.findViewById(R.id.tvTSwitchName)
 
